@@ -20,8 +20,8 @@ function App() {
         email: details.email
       })
     } else {
-      console.log("Details do not match!")
-      setError("Details do not match!")
+      console.log("User infos do not match!")
+      setError("User infos do not match!")
     }
   }
 
